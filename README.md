@@ -4,9 +4,9 @@
 
 **临床查房与跟诊记录助手**
 
-Android 当前正式版 **2.6.6** · iOS / iPadOS 正式版准备中
+Android 当前正式版 **2.6.6** · iOS / iPadOS 已上架 App Store
 
-[官方网站](https://lhzspace.com/linjian/) · [Android 版本说明](https://lhzspace.com/linjian/android/) · [使用说明](https://lhzspace.com/linjian/guide/) · [支持与联系](https://lhzspace.com/linjian/support/)
+[iOS App Store](https://apps.apple.com/cn/app/%E4%B8%B4%E7%AC%BA/id6800396297) · [官方网站](https://lhzspace.com/linjian/) · [Android 版本说明](https://lhzspace.com/linjian/android/) · [使用说明](https://lhzspace.com/linjian/guide/) · [支持与联系](https://lhzspace.com/linjian/support/)
 
 </div>
 
@@ -51,7 +51,7 @@ Android 当前正式版 **2.6.6** · iOS / iPadOS 正式版准备中
 | 平台 | 当前状态 | 获取信息 |
 | --- | --- | --- |
 | Android 手机 / 平板 | 当前正式版 2.6.6 | [版本说明](https://lhzspace.com/linjian/android/)，官网不提供 APK 下载入口 |
-| iOS / iPadOS | 正式版准备中 | App Store 与 TestFlight 入口开放后在官网公布；功能以对应版本说明为准 |
+| iOS / iPadOS | 已上架 App Store | [前往 App Store](https://apps.apple.com/cn/app/%E4%B8%B4%E7%AC%BA/id6800396297)；功能以对应版本说明为准 |
 
 ## 同步、备份与升级
 
