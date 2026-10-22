@@ -4,54 +4,45 @@
 
 **临床查房与跟诊记录助手**
 
-让查房重点、检验检查、待办与临床资料更集中、更清晰。
+Android 当前正式版 **2.6.6** · iOS / iPadOS 正式版准备中
 
-[官方网站](https://lhzspace.com/linjian/) · [使用说明](https://lhzspace.com/linjian/guide/) · [支持与联系](https://lhzspace.com/linjian/support/) · [问题反馈](https://github.com/luohuazheng-commits/linjian/issues)
+[官方网站](https://lhzspace.com/linjian/) · [Android 版本说明](https://lhzspace.com/linjian/android/) · [使用说明](https://lhzspace.com/linjian/guide/) · [支持与联系](https://lhzspace.com/linjian/support/)
 
 </div>
 
-临笺面向规培医生、住院医师等临床工作者，把住院查房、门诊跟诊与患者资料整理放在随手可用的记录工具中。日常记录默认保存在自己的设备上，也可按需配置跨设备同步。
+临笺面向规培医生、住院医师等临床工作者，整理住院查房、门诊跟诊、患者资料与日常待办。资料默认保存在自己的设备，不要求注册开发者运营的患者云账号。
 
-## 看看临笺怎么用
+## Android 2.6.6 更新了什么
 
-以下图片沿用官网的 iPhone 实机界面；不同平台和版本的界面与功能，以实际使用版本为准。点击图片可查看大图。
+- 查房摘要：可展开或收起并记住偏好，显示完整最新检验、体征和空状态。
+- 检验检查历史：独立查看完整报告，返回后保留原查房输入草稿。
+- 患者问题：五种状态、全部清单、按原问题编辑及确认删除。
+- 快捷短语：逐项增删改、长按或箭头排序及保存反馈。
+- 报告图片：分类、预览，以及原图全屏缩放、拖动和双击复原。
+- 界面细节：查房看板单行工具栏、独立横向滚动，以及主题、字号和透明度适配。
+
+## 功能与界面
+
+下图由 Android 2.6.6 封板版网页资源在浏览器中渲染，使用虚构资料，属于界面演示，**不是手机实机截图**。系统相机、录音服务和桌面插件等原生界面未在图中展示。点击图片可查看大图。
+
+以下包含 2.6 系列已有能力，并非全部由 2.6.6 首次加入；不代表 iOS 同时具备相同功能。
 
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3>01 · 今日工作台</h3>
-      <p>从当天的工作开始。查房、入院问诊、重点患者和待办集中呈现，方便先看需要优先处理的事情。</p>
-      <a href="assets/hero-home.png"><img src="assets/hero-home.png" width="300" alt="临笺今日工作台：查房入口、入院问诊与今日待办"></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>02 · 患者查房卡片</h3>
-      <p>用搜索和状态筛选找到患者，从卡片查看诊断、住院天数与待办，再进入详情和查房流程。</p>
-      <a href="assets/patients.png"><img src="assets/patients.png" width="300" alt="临笺患者列表：搜索、状态筛选与患者查房卡片"></a>
-    </td>
+    <td width="50%" valign="top"><h3>今日工作台</h3><p>查看今日待办与优先处理事项，进入查房和入院问诊。</p><a href="assets/android-v266/home.png"><img src="assets/android-v266/home.png" width="300" alt="Android 2.6.6 今日工作台界面演示，虚构资料"></a></td>
+    <td width="50%" valign="top"><h3>查房摘要与检验历史</h3><p>查房摘要可展开、收起并记住偏好，集中回看重点关注、当前问题、诊疗、最近记录、最新体征和检验。完整检验检查历史独立打开，返回后接着填写原查房输入草稿。</p><a href="assets/android-v266/rounds.png"><img src="assets/android-v266/rounds.png" width="300" alt="Android 2.6.6 查房摘要与检验历史界面演示，虚构资料"></a></td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3>03 · 多种记录方式</h3>
-      <p>文字、图片、手写与录音各有入口。生命体征、检验检查、当前问题和待办，按临床场景快速记录。</p>
-      <a href="assets/record-entry.png"><img src="assets/record-entry.png" width="300" alt="临笺信息录入：生命体征、文字、手写、录音和图片等入口"></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>04 · 患者详情</h3>
-      <p>围绕同一位患者整理概览、报告、查房记录、资料、问诊与生命体征，回看信息时少一些来回切换。</p>
-      <a href="assets/patient-detail.png"><img src="assets/patient-detail.png" width="300" alt="临笺患者详情：患者概览、问诊进度、诊断与生命体征"></a>
-    </td>
+    <td width="50%" valign="top"><h3>完整报告与图片资料</h3><p>按检验和检查回看历史报告，查看完整数值与已有结论。报告图片支持分类和预览，原图可全屏查看、双指缩放、拖动及双击复原。</p><a href="assets/android-v266/reports.png"><img src="assets/android-v266/reports.png" width="300" alt="Android 2.6.6 完整报告与图片资料界面演示，虚构资料"></a></td>
+    <td width="50%" valign="top"><h3>体征与结构化血糖</h3><p>生命体征作为主要记录入口。血糖支持凌晨、三餐前后、睡前和随机等十个监测时点，保留实际测量时间，同一天同一时点也可记录多次。横向表格便于回看。</p><a href="assets/android-v266/glucose.png"><img src="assets/android-v266/glucose.png" width="300" alt="Android 2.6.6 体征与结构化血糖界面演示，虚构资料"></a></td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3>05 · 门诊跟诊</h3>
-      <p>独立于住院查房的跟诊工作空间，按就诊记录病情、舌脉、诊断、治疗与学习要点，方便后续回顾。</p>
-      <a href="assets/followup.png"><img src="assets/followup.png" width="300" alt="临笺门诊跟诊：当日就诊记录与老师切换入口"></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>06 · 新入院问诊</h3>
-      <p>按内科、外科或自定义模板采集资料，用快速选择与必问项进度提示，帮助整理问诊内容、检查遗漏。</p>
-      <a href="assets/admission.png"><img src="assets/admission.png" width="300" alt="临笺新入院问诊：结构化章节、必问项进度与自动保存"></a>
-    </td>
+    <td width="50%" valign="top"><h3>患者问题清单</h3><p>新出现、处理中、观察中、稳定、已解决五种状态，用于持续整理患者问题。全部清单保留已解决事项，可编辑原问题并按需删除。</p><a href="assets/android-v266/problems.png"><img src="assets/android-v266/problems.png" width="300" alt="Android 2.6.6 患者问题清单界面演示，虚构资料"></a></td>
+    <td width="50%" valign="top"><h3>快捷短语与入口排序</h3><p>快捷短语支持逐项新增、修改、删除，以及长按拖动或箭头排序。患者信息入口和首页快捷记录可分别排序，按自己的记录习惯组织入口。</p><a href="assets/android-v266/phrases.png"><img src="assets/android-v266/phrases.png" width="300" alt="Android 2.6.6 快捷短语与入口排序界面演示，虚构资料"></a></td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><h3>手写与患者图片</h3><p>手写工作台提供纸张模板、缩放和平移，新版便签可继续编辑笔迹。患者图片可从相机或图库添加，问诊与随访中的图片、录音操作保留各自上下文。</p><a href="assets/android-v266/handwriting.png"><img src="assets/android-v266/handwriting.png" width="300" alt="Android 2.6.6 手写与患者图片界面演示，虚构资料"></a></td>
+    <td width="50%" valign="top"><h3>待办、排班与桌面插件</h3><p>待办按优先级整理，完成事项按日期回看。班次可改名、改色和排序，规律排班支持按周期生成。Android 待办与排班桌面插件提供多种尺寸、字号和照片背景。</p><a href="assets/android-v266/calendar.png"><img src="assets/android-v266/calendar.png" width="300" alt="Android 2.6.6 待办、排班与桌面插件界面演示，虚构资料"></a></td>
   </tr>
 </table>
 
@@ -59,32 +50,27 @@
 
 | 平台 | 当前状态 | 获取信息 |
 | --- | --- | --- |
-| Android | 已有可用版本 | [查看官网说明](https://lhzspace.com/linjian/#download)，当前官网未提供 APK 下载入口 |
-| iOS / iPadOS | 正式版准备中 | App Store 与 TestFlight 入口开放后将在官网公布 |
+| Android 手机 / 平板 | 当前正式版 2.6.6 | [版本说明](https://lhzspace.com/linjian/android/)，官网不提供 APK 下载入口 |
+| iOS / iPadOS | 正式版准备中 | App Store 与 TestFlight 入口开放后在官网公布；功能以对应版本说明为准 |
 
-安装、授权和各平台的具体功能范围，以对应版本说明为准。
+## 同步、备份与升级
 
-## 数据由你掌控
+- **按需同步**：可自行配置 WebDAV 加密同步。Android 有手动同步和默认关闭的 10 / 30 / 60 分钟自动同步设置；先核对客户端兼容性，再共用云空间。
+- **独立备份**：升级前先把加密备份保存到 App 外，保管备份密码。同步不能代替备份，未经兼容验收的旧客户端不要继续共写。
+- **录音另存**：普通备份不自动打包 localOnly 原生录音；音频同步受单个 8 MiB、单次 16 MiB 限制，重要原件应单独保存、核验。
+- **覆盖升级**：在原安装上升级，不卸载、不清除数据。升级后核对原有资料再继续使用。
+- **本机保护**：可选六位应用锁限制界面访问；不代表以 PIN 加密本地数据库。Android 备份选择包含同步设置时可能含 WebDAV 凭据，请妥善保管。
 
-- **本机保存**：患者资料默认保存在自己的设备，不要求注册开发者运营的患者云账号。
-- **按需同步**：可自主配置 WebDAV，在设备间手动执行加密双向同步；两端需使用一致的配置和同步密钥。
-- **独立备份**：支持用单独设置的密码创建加密完整备份，建议定期保存到可靠位置。
-- **可选应用锁**：提供六位数字应用锁。应用锁限制界面访问，不等同于用 PIN 加密本地数据库。
+临笺用于临床记录与资料整理，不替代医院信息系统、正式病历系统或专业诊疗判断。请遵守所在医疗机构的数据管理要求。
 
-请按所在医疗机构的要求管理患者资料、录音、截图和导出文件。临笺用于临床记录与资料整理，不替代医院信息系统、正式病历系统或专业诊疗判断。
+## 使用说明与反馈
 
-## 使用说明与支持
+[使用说明](https://lhzspace.com/linjian/guide/) · [支持与联系](https://lhzspace.com/linjian/support/) · [隐私政策](https://lhzspace.com/linjian/privacy/) · [用户协议](https://lhzspace.com/linjian/terms/) · [医疗使用声明](https://lhzspace.com/linjian/medical/)
 
-- [使用说明](https://lhzspace.com/linjian/guide/)：查房、跟诊、问诊、同步和备份等功能说明。
-- [支持与联系](https://lhzspace.com/linjian/support/)：常见问题、功能建议与联系方式。
-- [隐私政策](https://lhzspace.com/linjian/privacy/) · [用户协议](https://lhzspace.com/linjian/terms/) · [医疗使用声明](https://lhzspace.com/linjian/medical/)
-
-也欢迎通过 [GitHub Issues](https://github.com/luohuazheng-commits/linjian/issues) 反馈问题。请附上平台、应用版本、设备型号、复现步骤及期望结果；示例和截图请使用虚构或已脱敏资料。
+欢迎通过 [Issues](https://github.com/luohuazheng-commits/linjian/issues) 提交问题与建议。请提供平台、应用版本、设备型号和复现步骤，示例使用虚构或已脱敏资料。
 
 ## 关于本仓库
 
-本仓库用于临笺的项目介绍、功能展示和问题反馈。公开介绍不代表应用源码已开源，源码授权以权利人明确发布的许可为准。
-
-截图与产品信息来自 [临笺官网](https://lhzspace.com/linjian/)。
+本仓库用于项目介绍、功能展示和问题反馈。公开介绍不代表应用源码已开源，源码授权以权利人明确发布的许可为准。
 
 制作：LHZ · [LHZ SPACE](https://lhzspace.com/)
